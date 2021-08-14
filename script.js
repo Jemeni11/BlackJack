@@ -15,7 +15,7 @@ function startGame(){
     renderGame();
 }
 
-function renderGame(){\
+function renderGame(){
     if (sum <= 20){
         message = "Do you want to draw a new card?"
     } else if (sum === 21){
